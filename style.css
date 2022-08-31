@@ -7,15 +7,17 @@ html {
     margin: auto;
 }
 
-    
 body{
     display: table-cell;
     vertical-align: middle;
-    background:#c6cfb6;
     text-align: center;
     font-family: Verdana, sans-serif;
 }
    
+#grad {
+    background-image: linear-gradient(rgb(250, 221, 221), rgb(255, 255, 178), rgb(214, 254, 214));
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
@@ -23,24 +25,41 @@ body{
 
 table, td, th {
     border: 3px solid;
+    border-collapse: collapse;
 }
      
 th{
-    height: 70px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(25, 119, 182);
+}
+
+td{
+    height: 40px;
 }
 
 table {
     width:100%;
+    box-shadow: 20px 20px 5px lightblue;
+    transition: height 2s;
 }
 
-tr:hover {background-color: rgb(195, 202, 140);}
+table:hover{
+    height: 380px;
+}
 
-footer{ 
-    min-height:50px; 
-    background:rgb(125, 140, 124); 
+tr:hover {background-color: rgb(127, 202, 252);}
+
+@keyframes prueba {
+    from {color: rgb(1, 93, 124);}
+    to {color: rgb(0, 0, 0);}
 }
 
 h1{
     color:rgb(9, 8, 8);
     font-family: Verdana, sans-serif;
+    animation-name: prueba;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
