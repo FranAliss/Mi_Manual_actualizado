@@ -45,7 +45,7 @@ table {
 }
 
 table:hover{
-    height: 380px;
+    height: 500px;
 }
 
 tr:hover {background-color: rgb(127, 202, 252);}
