@@ -38,14 +38,14 @@ td{
     height: 40px;
 }
 
-table {
+#table1 {
     width:100%;
     transition: height 5s;
     box-shadow: 20px 20px 5px lightblue;
 }
 
-table:hover{
-    height: 630px;
+#table1:hover{
+    height: 600px;
 }
 
 tr:hover {background-color: rgb(127, 202, 252);}
@@ -62,4 +62,9 @@ h1{
     animation-duration: 2s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+}
+
+#table2{
+    width:100%;
+    box-shadow: 20px 20px 5px lightblue;
 }
