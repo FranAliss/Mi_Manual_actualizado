@@ -51,15 +51,16 @@ td{
 tr:hover {background-color: rgb(127, 202, 252);}
 
 @keyframes prueba {
-    from {color: rgb(1, 93, 124);}
+    from {color: rgb(224, 223, 255);}
     to {color: rgb(0, 0, 0);}
 }
 
 h1{
     color:rgb(9, 8, 8);
     font-family: Verdana, sans-serif;
+    font-style: oblique;
     animation-name: prueba;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
 }
@@ -72,4 +73,9 @@ h1{
 
 #table2:hover{
     height: 170px;
+}
+
+footer{
+    font-style: italic;
+    font-weight: bold;
 }
