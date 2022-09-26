@@ -15,10 +15,7 @@ body{
     text-align: center;
     font-family: Verdana, sans-serif;
 }
-   
-#grad {
-    background-image: linear-gradient(rgb(250, 221, 221), rgb(255, 255, 178), rgb(214, 254, 214));
-}
+
 
 .center {
     margin-left: auto;
