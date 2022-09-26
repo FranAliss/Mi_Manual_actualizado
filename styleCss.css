@@ -26,7 +26,7 @@ body{
 }
 
 table, td, th {
-    border: 3px solid;
+    border: 3px solid rgb(25, 119, 182);
     border-collapse: collapse;
 }
      
@@ -45,7 +45,8 @@ td{
     height: 200px;
     transition: height 0.2s;
     transition-timing-function: ease-in-out;
-    box-shadow: 20px 20px 8px rgb(216, 241, 249);
+    box-shadow: 8px 8px 1px;
+    /*box-shadow: 20px 20px 8px rgb(216, 241, 249);*/
 }
 
 #table1:hover{
@@ -72,7 +73,8 @@ h1{
 #table2{
     width:100%;
     height: 100px;
-    box-shadow: 20px 20px 8px rgb(216, 241, 249);
+    box-shadow: 8px 8px 1px;
+    /*box-shadow: 20px 20px 8px rgb(216, 241, 249);*/
     transition: height 0.2s;
     transition-timing-function: ease-in-out;
 }
@@ -104,5 +106,77 @@ footer{
 #volver{
     position: fixed;
     left: 100px;
- 
+}
+
+#ejemplosFlex{
+    border:solid rgb(0, 0, 0);
+    box-shadow: 8px 8px 1px;
+}
+
+#flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-height: 6rem;
+    min-width: 6rem;
+}
+
+#flexbox div{
+    border-radius: 5%;
+    height: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(25, 119, 182);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#flexbox-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-height: 6rem;
+    min-width: 6rem;
+}
+
+#flexbox-2 div{
+    border-radius: 5%;
+    height: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(25, 119, 182);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#flexbox-3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 6rem;
+    min-width: 6rem;
+}
+
+#flexbox-3 div{
+    border-radius: 5%;
+    height: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }

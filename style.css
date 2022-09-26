@@ -26,7 +26,7 @@ body{
 }
 
 table, td, th {
-    border: 3px solid;
+    border: 3px rgb(25, 119, 182) solid;
     border-collapse: collapse;
 }
      
@@ -46,7 +46,7 @@ td{
     height: 700px;
     transition: height 0.2s;
     transition-timing-function: ease-in-out;
-    box-shadow: 20px 20px 8px rgb(216, 241, 249);
+    box-shadow: 8px 8px 1px;
 }
 
 #table1:hover{
@@ -73,7 +73,7 @@ h1{
 #table2{
     height: 130px;
     width:100%;
-    box-shadow: 20px 20px 8px rgb(216, 241, 249);
+    box-shadow: 8px 8px 1px;
     transition: height 0.2s;
     transition-timing-function: ease-in-out;
 }
