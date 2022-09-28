@@ -66,6 +66,8 @@ td{
     height: 120px;
 }
 
+tr:hover {background-color: rgb(127, 202, 252);}
+
 #table1 {
     position: static;
     width: 70%;
