@@ -1,0 +1,151 @@
+html, body {
+    height: 90%;
+}
+
+html {
+    display: table;
+    margin: 5rem;
+}
+
+body{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+@keyframes prueba {
+    from {color: rgb(224, 223, 255);}
+    to {color: rgb(0, 0, 0);}
+}
+
+h1{
+    color:rgb(245, 237, 237);
+    font-family: Verdana, sans-serif;
+    font-style: oblique;
+    animation-name: prueba;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+#return{
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(25, 119, 182);
+    color: black;
+    border: 2px solid #000000;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+  
+#return:hover {
+    background-color: rgb(20, 71, 106);
+    color: white;
+}
+
+#volver{
+    position: fixed;
+    left: 100px;
+}
+
+table, td, th {
+    border: 3px rgb(25, 119, 182) solid;
+    border-collapse: collapse;
+}
+     
+th{
+    height: 30px;
+    text-align: center;
+    background-color: rgb(25, 119, 182);
+}
+
+td{
+    height: 120px;
+}
+
+#table1 {
+    position: static;
+    width: 70%;
+    height:60px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: height 0.3s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 8px 8px 1px;
+}
+
+#table1:hover{
+    height: 600px;
+}
+
+#TestExampleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#TextExampleContainer>p{
+    color: black;
+}
+
+#TextExampleContainer>p::first-letter{
+    color: rgb(25, 119, 182);
+    font-weight: bold;
+}
+
+#TextExampleContainer>p::first-line{
+    background-color: yellow;
+    color:  black;
+}
+
+#TextExampleContainer>p::after{
+    content: "::after--> ";
+    color:  rgb(25, 119, 182);
+}
+
+#TextExampleContainer>p::before{
+    content: "::before-->";
+    color: rgb(25, 119, 182);
+}
+
+#TestExampleContainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#TextExampleContainer2>p{
+    color: black;
+}
+
+#TextExampleContainer2>p::first-letter{
+    color: rgb(25, 119, 182);
+    font-weight: bold;
+}
+
+#TextExampleContainer2>p::first-line{
+    background-color: yellow;
+    color:  black;
+}
+
+#TextExampleContainer2>p::after{
+    content: "::after--> ";
+    color:  rgb(25, 119, 182);
+}
+
+#TextExampleContainer2>p::before{
+    content: "::before-->";
+    color: rgb(25, 119, 182);
+}
+
+footer{
+    font-style: italic;
+    font-weight: bold;
+}

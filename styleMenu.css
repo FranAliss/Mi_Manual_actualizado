@@ -55,3 +55,17 @@ h1{
     color: white;
 }
 
+#btnTxt{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #ffffff;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+  
+#btnTxt:hover {
+    background-color: rgb(20, 71, 106);
+    color: white;
+}
+
